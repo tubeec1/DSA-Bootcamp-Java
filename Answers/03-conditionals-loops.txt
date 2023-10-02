@@ -23,7 +23,7 @@
         System.out.println(“Enter the height”);
         float height = sc.nextFloat();
         float areaOfTriangle = 0.5 * base * height;
-System.out.println(areaOfTriangle);
+	System.out.println(areaOfTriangle);
 
 
 3. Area Of Rectangle Program
@@ -43,7 +43,8 @@ System.out.println(areaOfTriangle);
         System.out.println(“Enter the height”);
         float height = sc.nextFloat();
         float areaIsosceles = 0.5 * base * height;
-System.out.println(areaOfIsosceles);
+	System.out.println(areaOfIsosceles);
+
 5. Area Of Parallelogram
         Scanner sc = new Scanner(System.in);
         System.out.println(“Enter the base/length”);
@@ -51,24 +52,24 @@ System.out.println(areaOfIsosceles);
         System.out.println(“Enter the height”);
         float height = sc.nextFloat();
         float areaOfParallelogram = base * height;
-System.out.println(areaOfParallelogram);
+	System.out.println(areaOfParallelogram);
 
 
 6. Area Of Rhombus
-Scanner scanner = new Scanner(System.in);
-System.out.print("Enter the length of the first diagonal of the rhombus: ");
-double diagonal1 = scanner.nextDouble();
-System.out.print("Enter the length of the second diagonal of the rhombus: ");
-double diagonal2 = scanner.nextDouble();
-double areaOfRhombus = 0.5 * diagonal1 * diagonal2;
-System.out.println(areaofRhombus);
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter the length of the first diagonal of the rhombus: ");
+	double diagonal1 = scanner.nextDouble();
+	System.out.print("Enter the length of the second diagonal of the rhombus: ");
+	double diagonal2 = scanner.nextDouble();
+	double areaOfRhombus = 0.5 * diagonal1 * diagonal2;
+	System.out.println(areaofRhombus);
  
 7. Area Of Equilateral Triangle
-            Scanner scanner = new Scanner(System.in);
-              System.out.print("Enter the length of the side of the equilateral triangle: ");
-                double sideLength = scanner.nextDouble();
-                double areaOfEquilateral = (Math.sqrt(3) / 4) * length * length);
-               System.out.println(areaOfEquilateral);
+         Scanner scanner = new Scanner(System.in);
+         System.out.print("Enter the length of the side of the equilateral triangle: ");
+         double sideLength = scanner.nextDouble();
+         double areaOfEquilateral = (Math.sqrt(3) / 4) * length * length);
+         System.out.println(areaOfEquilateral);
 
 
 8. Perimeter Of Circle
