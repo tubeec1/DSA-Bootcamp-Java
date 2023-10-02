@@ -1,103 +1,112 @@
-02 First-java.md
-Solving their problems 
-by : Mohamed Suleyman Ibrahim
-Write a program to print whether a number is even or odd, also take input from the user.
+										02 First-java.md
+										Solving their problems 
+										by : Mohamed Suleyman Ibrahim
+
+
+1) Write a program to print whether a number is even or odd, also take input from the user.
 	Scanner sc = new Scanner(System.in);
 	Int num = sc.nextInt();
 	if(num%2=0)
-{
-	System.out.println(“even”);
-}
-else{
-	System.out.println(“odd”);
-}
-Take name as input and print a greeting message for that particular name.
+	{
+		System.out.println(“even”);
+	}
+	else{
+		System.out.println(“odd”);
+	}
+
+
+2) Take name as input and print a greeting message for that particular name.
 	Scanner sc = new Scanner(System.in);
 	String name = sc.nextLine();;
 	System.out.println(“Hi ”+name);
 
 
-Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+3) Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 	Scanner sc = new Scanner(System.in);
 	System.out.println(“Enter principal”);
 	Int principal = sc.nextInt();
-System.out.println(“Enter time”);
+	System.out.println(“Enter time”);
 	Int time = sc.nextInt();
-System.out.println(“Enter rate”);
+	System.out.println(“Enter rate”);
 	Int rate = sc.nextInt();
 	Interest = principal * time * rate;
 	System.out.println(interest);
-Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+
+
+4) Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 	Scanner sc = new Scanner(System.in);
-System.out.println("Enter num1");
+	System.out.println("Enter num1");
+	int num1 = sc.nextInt();
+	System.out.println("Enter num2");
+	int num2 = sc.nextInt();
+	System.out.println("Enter an operator");
+	String op = sc.nextLine();
+	String operator = sc.nextLine();
+	if ( operator.equals("+"))
+	{
+  		int sum = num1 + num2;
+   		System.out.println(sum);
+	}
+	else if(operator.equals("-"))
+	{
+   		int sub = num1  - num2;
+  		System.out.println(sub);
+	}
+	else if(operator.equals("*"))
+	{
+   		int mul = num1  * num2;
+   		System.out.println(mul);
+	}
+	else if(operator.equals("/"))
+	{
+  		int div = num1  / num2;
+  		System.out.println(div);
+	}
 
 
-int num1 = sc.nextInt();
-System.out.println("Enter num2");
-int num2 = sc.nextInt();
-System.out.println("Enter an operator");
-String op = sc.nextLine();
-String operator = sc.nextLine();
-if ( operator.equals("+"))
-{
-   int sum = num1 + num2;
-   System.out.println(sum);
-}
-else if(operator.equals("-"))
-{
-   int sub = num1  - num2;
-   System.out.println(sub);
-}
-else if(operator.equals("*"))
-{
-   int mul = num1  * num2;
-   System.out.println(mul);
-}
-else if(operator.equals("/"))
-{
-   int div = num1  / num2;
-   System.out.println(div);
-}
-Take 2 numbers as input and print the largest number.
+5) Take 2 numbers as input and print the largest number.
 	Scanner sc = new Scanner(System.in);
-System.out.println("Enter num1");
+	System.out.println("Enter num1");
+	int num1 = sc.nextInt();
+	System.out.println("Enter num2");
+	int num2 = sc.nextInt();
+	if(num1 > num2)
+	{
+		System.out.println(num1);
+	}
+	else if(num2 > num1) {
+		System.out.println(num2);
+	}
+	else:
+	{
+		System.out.println(“They are equal”);)
+	}
 
 
-int num1 = sc.nextInt();
-System.out.println("Enter num2");
-int num2 = sc.nextInt();
-if(num1 > num2)
-{
-	System.out.println(num1);
-}
-else if(num2 > num1) {
-	System.out.println(num2);
-}
-else:
-{
-	System.out.println(“They are equal”);)
-}
-Input currency in rupees and output in USD.
+6) Input currency in rupees and output in USD.
 	Scanner sc = new Scanner(System.in);
-System.out.println("Enter Rupees currency to convert usd");
-float curRupees = sc.nextInt();
-double curUSD = curRupees / 75.0;
-System.out.println(curUSD+"$");
-      7. To calculate Fibonacci Series up to n numbers.
+	System.out.println("Enter Rupees currency to convert usd");
+	float curRupees = sc.nextInt();
+	double curUSD = curRupees / 75.0;
+	System.out.println(curUSD+"$");
+
+
+7) To calculate Fibonacci Series up to n numbers.
+
 		
-      8. To find out whether the given String is Palindrome or not.
+8) To find out whether the given String is Palindrome or not.
 	Scanner sc = new Scanner(System.in);
-String word = sc.nextLine();
-String reverseWord = "";
-for(int i=word.length()-1; 0<=i; i-- ){
+	String word = sc.nextLine();
+	String reverseWord = "";
+	for(int i=word.length()-1; 0<=i; i-- ){
    		reverseWord += word.charAt(i);
-}
-if(word.equals(reverseWord)){
+	}
+	if(word.equals(reverseWord)){
    		System.out.println("this is palindrome);
-}
-else {
-  		 System.out.println("This is not palindrome");
-}
+	}
+	else {
+  		System.out.println("This is not palindrome");
+	}
 
 
-      9. To find Armstrong Number between two given number.
+9) To find Armstrong Number between two given number.
