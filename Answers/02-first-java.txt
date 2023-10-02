@@ -1,6 +1,6 @@
-										02 First-java.md
-										Solving their problems 
-										by : Mohamed Suleyman Ibrahim
+	02 First-java.md
+	Solving their problems 
+	by : Mohamed Suleyman Ibrahim
 
 
 1) Write a program to print whether a number is even or odd, also take input from the user.
