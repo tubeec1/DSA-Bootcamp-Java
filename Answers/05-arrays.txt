@@ -1,0 +1,35 @@
+05-Arrays 
+Solutions 
+By Mohamed Suleyman Ibrahim
+--------------------------------------------------------------------------
+1) Given a zero-based permutation nums (0-indexed), build an array ans of the same length where ans[i] = nums[nums[i]] for each 0 <= i < nums.length and return it.
+A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
+
+  class Solution {
+    public int[] buildArray(int[] nums) {
+        int[] ans = new int[nums.length];
+        for(int i =0; i<nums.length; i++){
+            ans[i] = nums[nums[i]];
+        }
+        return ans;
+    }
+
+  }
+
+__________________________________________________________________________
+
+2) Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed).
+Specifically, ans is the concatenation of two nums arrays.
+Return the array ans.
+
+  class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int[] ans = new int[nums.length*2];
+        for(int i=0; i < nums.length; i++){
+           ans[i] = nums[i];
+           ans[i + nums.length] = nums[i];
+        }
+        return ans;
+    }
+  }
+3) 
